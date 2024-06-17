@@ -1,3 +1,0 @@
-[heading.foo]
-bar = 'bar'
-baz = { kek = 123, lel = 456 }
