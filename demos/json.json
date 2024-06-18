@@ -1,0 +1,9 @@
+{
+    "string": "value",
+    "integer": 123456,
+    "boolean": true,
+    "other boolean": false,
+    "null": null,
+    "object": {},
+    "array": []
+}

@@ -169,6 +169,12 @@
 			}
 		},
 		{
+			"scope": "constant.language",
+			"settings": {
+				"foreground": "#3392ff"
+			}
+		},
+		{
 			"name": "Link",
 			"scope": [
 				"meta.image",
@@ -207,10 +213,24 @@
 			}
 		},
 		{
+			"name": "Numbers",
+			"scope": "constant.numeric",
+			"settings": {
+				"foreground": "#ffde5c"
+			}
+		},
+		{
 			"name": "Paragraphs",
 			"scope": "meta.paragraph",
 			"settings": {
 				"foreground": "#dcdcdc"
+			}
+		},
+		{
+			"name": "Property Names",
+			"scope": "support.type.property-name",
+			"settings": {
+				"foreground": "#02f2e6"
 			}
 		},
 		{
