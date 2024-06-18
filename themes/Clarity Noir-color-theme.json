@@ -60,6 +60,13 @@
 			}
 		},
 		{
+			"name": "Character > Escaped",
+			"scope": "constant.character.escape",
+			"settings": {
+				"foreground": "#ffcc00"
+			}
+		},
+		{
 			"name": "Colors",
 			"scope": "constant.other.color",
 			"settings": {
@@ -102,10 +109,24 @@
 			}
 		},
 		{
+			"name": "Keywords",
+			"scope": "keyword",
+			"settings": {
+				"foreground": "#c076e5"
+			}
+		},
+		{
 			"name": "Numbers",
 			"scope": "constant.numeric",
 			"settings": {
 				"foreground": "#67e077"
+			}
+		},
+		{
+			"name": "Operators",
+			"scope": "keyword.operator",
+			"settings": {
+				"foreground": "#8c8c8c"
 			}
 		},
 		{
@@ -124,20 +145,26 @@
 		},
 		{
 			"name": "Statement Terminators",
-			"scope": "punctuation.terminator.rule",
+			"scope": "punctuation.terminator",
 			"settings": {
 				"foreground": "#686868"
 			}
 		},
 		{
-			"name": "Strings",
+			"scope": "storage.type",
+			"settings": {
+				"foreground": "#c076e5"
+			}
+		},
+		{
+			"name": "String",
 			"scope": "string",
 			"settings": {
 				"foreground": "#e08300"
 			}
 		},
 		{
-			"name": "String Punctuation",
+			"name": "String > Punctuation",
 			"scope": "string punctuation.definition",
 			"settings": {
 				"foreground": "#e08300"
