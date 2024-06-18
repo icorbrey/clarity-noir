@@ -24,6 +24,8 @@ This is some plain text.
 
 1. This is an ordered list item.
 
+> This is a blockquote
+
 [This is a link](https://example.com)
 
 ![This is an image](https://example.com)

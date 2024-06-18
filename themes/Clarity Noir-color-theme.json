@@ -53,6 +53,20 @@
 	},
 	"tokenColors": [
 		{
+			"name": "Blockquote Markers",
+			"scope": "punctuation.definition.quote",
+			"settings": {
+				"foreground": "#686868"
+			}
+		},
+		{
+			"name": "Blockquote Text",
+			"scope": "markup.quote meta.paragraph",
+			"settings": {
+				"foreground": "#8c8c8c"
+			}
+		},
+		{
 			"name": "Bold Markers",
 			"scope": "punctuation.definition.bold",
 			"settings": {
