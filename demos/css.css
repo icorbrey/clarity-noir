@@ -1,0 +1,15 @@
+/* Direct elements */
+h1, h2, h3 {
+    background: #ffffff;
+}
+
+/* Classes */
+.foo, .bar {
+    --color: hsl(1, 2, 3);
+    background: var(--color);
+}
+
+/* IDs */
+#kek, #lel {
+    transition: ease 0.12s;
+}
