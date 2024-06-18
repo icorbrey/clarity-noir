@@ -210,7 +210,8 @@
 			"name": "Strikethrough Text",
 			"scope": "markup.strikethrough",
 			"settings": {
-				"foreground": "#8c8c8c"
+				"foreground": "#8c8c8c",
+				"fontStyle": "strikethrough"
 			}
 		},
 		{
