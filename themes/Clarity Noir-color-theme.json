@@ -112,8 +112,7 @@
 		{
 			"name": "Functions",
 			"scope": [
-				"entity.name.function",
-				"meta.function"
+				"entity.name.function"
 			],
 			"settings": {
 				"foreground": "#ffde5c"
@@ -158,7 +157,9 @@
 		{
 			"name": "Scope Punctuation",
 			"scope": [
+				"punctuation.brackets",
 				"punctuation.curlybrace",
+				"punctuation.parenthesis",
 				"punctuation.section"
 			],
 			"settings": {
@@ -174,7 +175,10 @@
 		},
 		{
 			"name": "Statement Terminators",
-			"scope": "punctuation.terminator",
+			"scope": [
+				"punctuation.semi",
+				"punctuation.terminator"
+			],
 			"settings": {
 				"foreground": "#686868"
 			}
@@ -201,10 +205,20 @@
 			}
 		},
 		{
-			"name": "Types",
+			"name": "Type",
 			"scope": "entity.name.type",
 			"settings": {
 				"foreground": "#2acd41"
+			}
+		},
+		{
+			"name": "Type > Primitive",
+			"scope": [
+				"entity.name.type.numeric",
+				"entity.name.type.primitive"
+			],
+			"settings": {
+				"foreground": "#3392ff"
 			}
 		},
 		{
@@ -219,6 +233,13 @@
 			"scope": "source.cs entity.name.type.interface",
 			"settings": {
 				"foreground": "#67e077"
+			}
+		},
+		{
+			"name": "[C#] Namespace",
+			"scope": "source.cs entity.name.type.namespace",
+			"settings": {
+				"foreground": "#02c7be"
 			}
 		},
 		{
@@ -240,6 +261,20 @@
 			"scope": "source.css support.constant.property-value",
 			"settings": {
 				"foreground": "#e0b400"
+			}
+		},
+		{
+			"name": "[CSS] Function",
+			"scope": "source.css meta.function",
+			"settings": {
+				"foreground": "#ffde5c"
+			}
+		},
+		{
+			"name": "[CSS] Function > Variable",
+			"scope": "source.css meta.function.variable",
+			"settings": {
+				"foreground": "#c076e5"
 			}
 		},
 		{
@@ -281,13 +316,6 @@
 			"scope": "source.css entity.name.tag.css",
 			"settings": {
 				"foreground": "#3392ff"
-			}
-		},
-		{
-			"name": "[CSS] Variable Function",
-			"scope": "source.css meta.function.variable",
-			"settings": {
-				"foreground": "#c076e5"
 			}
 		},
 		{
@@ -531,6 +559,27 @@
 			}
 		},
 		{
+			"name": "[Rust] Lifetime",
+			"scope": [
+				"source.rust entity.name.type.lifetime",
+				"source.rust punctuation.definition.lifetime"
+			],
+			"settings": {
+				"foreground": "#02c7be"
+			}
+		},
+		{
+			"name": "[Rust] Module",
+			"scope": [
+				"source.rust entity.name.module",
+				"source.rust entity.name.namespace"
+			],
+			"settings": {
+				"foreground": "#02c7be"
+			}
+		},
+		{
+			"name": "[TOML] Table Name",
 			"scope": "source.toml support.type.property-name.table",
 			"settings": {
 				"foreground": "#02c7be"
