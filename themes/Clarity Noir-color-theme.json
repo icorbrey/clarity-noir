@@ -258,9 +258,16 @@
 		},
 		{
 			"name": "[CSS] Constants",
-			"scope": "source.css support.constant.property-value",
+			"scope": "source.css meta.property-value support.constant.property-value",
 			"settings": {
 				"foreground": "#e0b400"
+			}
+		},
+		{
+			"name": "[CSS] Constants > Not Recognized",
+			"scope": "source.css meta.property-value",
+			"settings": {
+				"foreground": "#8c8c8c"
 			}
 		},
 		{
@@ -278,6 +285,16 @@
 			}
 		},
 		{
+			"name": "[CSS] Property Names",
+			"scope": [
+				"source.css meta.at-rule.media.header support.type.property-name",
+				"source.css meta.property-name support.type.property-name"
+			],
+			"settings": {
+				"foreground": "#dcdcdc"
+			}
+		},
+		{
 			"name": "[CSS] Property Names > Not Recognized",
 			"scope": [
 				"source.css meta.at-rule.media.header",
@@ -285,16 +302,6 @@
 			],
 			"settings": {
 				"foreground": "#8c8c8c"
-			}
-		},
-		{
-			"name": "[CSS] Property Names > Recognized",
-			"scope": [
-				"source.css meta.at-rule.media.header support.type.property-name",
-				"source.css meta.property-name support.type.property-name"
-			],
-			"settings": {
-				"foreground": "#dcdcdc"
 			}
 		},
 		{
