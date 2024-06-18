@@ -1,0 +1,8 @@
+[section]
+key = "value"
+number = 123
+object = { key = "value" }
+array = ["one", "two", "three"]
+
+[section.subsection]
+property = "value"

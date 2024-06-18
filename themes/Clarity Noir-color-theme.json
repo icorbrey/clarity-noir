@@ -53,6 +53,13 @@
 	},
 	"tokenColors": [
 		{
+			"name": "Assignment Punctuation",
+			"scope": "punctuation.eq",
+			"settings": {
+				"foreground": "#8c8c8c"
+			}
+		},
+		{
 			"name": "Colors",
 			"scope": "constant.other.color",
 			"settings": {
@@ -450,6 +457,12 @@
 			"scope": "text.html.markdown punctuation.definition.strikethrough",
 			"settings": {
 				"foreground": "#686868"
+			}
+		},
+		{
+			"scope": "source.toml support.type.property-name.table",
+			"settings": {
+				"foreground": "#02c7be"
 			}
 		},
 		{
