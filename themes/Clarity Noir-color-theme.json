@@ -326,6 +326,13 @@
 			}
 		},
 		{
+			"name": "[CSS] Unit",
+			"scope": "source.css keyword.other.unit",
+			"settings": {
+				"foreground": "#23a935"
+			}
+		},
+		{
 			"name": "[HTML] Attribute Names",
 			"scope": "text.html.derivative entity.other.attribute-name",
 			"settings": {
