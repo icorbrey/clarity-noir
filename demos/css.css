@@ -7,9 +7,14 @@ h1, h2, h3 {
 .foo, .bar {
     --color: hsl(1, 2, 3);
     background: var(--color);
+    background-color: kek;
 }
 
 /* IDs */
 #kek, #lel {
     transition: ease 0.12s;
+}
+
+@media (max-width: 2px) {
+    
 }

@@ -3,6 +3,23 @@
     <link href="./css.css" rel="stylesheet" type="text/css" />
     <title>This is a title</title>
     <!-- This is a comment! -->
+    <style>
+        /* Direct elements */
+        h1, h2, h3 {
+            background: #ffffff;
+        }
+
+        /* Classes */
+        .foo, .bar {
+            --color: hsl(1, 2, 3);
+            background: var(--color);
+        }
+
+        /* IDs */
+        #kek, #lel {
+            transition: ease 0.12s;
+        }
+    </style>
 </head>
 <body>
     <h1>Header 1</h1>
