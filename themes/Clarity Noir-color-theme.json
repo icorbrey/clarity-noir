@@ -169,6 +169,7 @@
 			}
 		},
 		{
+			"name": "Language Constants",
 			"scope": "constant.language",
 			"settings": {
 				"foreground": "#3392ff"
