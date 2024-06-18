@@ -7,7 +7,7 @@ h1, h2, h3 {
 .foo, .bar {
     --color: hsl(1, 2, 3);
     background: var(--color);
-    background-color: kek;
+    background-color-l: kek;
 }
 
 /* IDs */

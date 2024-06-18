@@ -28,9 +28,14 @@ This is some plain text.
 
 > This is a blockquote
 
+| One | Two | Three |
+|-----|-----|-------|
+| a   | b   | c     |
+
 [This is a link](https://example.com)
 
 ![This is an image](https://example.com)
+![Another image][kek]
 
 [This is a link via footnote][kek]
 

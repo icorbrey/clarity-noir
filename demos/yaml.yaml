@@ -14,4 +14,4 @@ array:
   - two
   - three
 
-other-array: [one, two, three]
+other-array: [one, two, 3]
