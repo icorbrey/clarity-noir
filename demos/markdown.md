@@ -20,6 +20,8 @@ This is some plain text.
 
 `Some code`
 
+<!-- This is a comment! -->
+
 - This is an unordered list item.
 
 1. This is an ordered list item.

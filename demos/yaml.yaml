@@ -1,0 +1,15 @@
+string: value
+int: 123456
+boolean: true
+other-boolean: false
+null-value: null
+
+# This is a comment!
+
+object:
+  kek: lel
+
+array:
+  - one
+  - two
+  - three

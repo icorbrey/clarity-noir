@@ -83,6 +83,20 @@
 			}
 		},
 		{
+			"name": "Comment Punctuation",
+			"scope": "punctuation.definition.comment",
+			"settings": {
+				"foreground": "#686868"
+			}
+		},
+		{
+			"name": "Comment Text",
+			"scope": "comment",
+			"settings": {
+				"foreground": "#8c8c8c"
+			}
+		},
+		{
 			"name": "Constant Link",
 			"scope": "constant.other.reference.link",
 			"settings": {
@@ -172,7 +186,8 @@
 			"name": "Language Constants",
 			"scope": "constant.language",
 			"settings": {
-				"foreground": "#3392ff"
+				"foreground": "#3392ff",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -229,7 +244,10 @@
 		},
 		{
 			"name": "Property Names",
-			"scope": "support.type.property-name",
+			"scope": [
+				"support.type.property-name",
+				"entity.name.tag"
+			],
 			"settings": {
 				"foreground": "#02f2e6"
 			}
