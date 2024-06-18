@@ -120,6 +120,20 @@
     },
     "tokenColors": [
         {
+            "name": "Attribute",
+            "scope": "meta.attribute",
+            "settings": {
+                "foreground": "#ffcc00"
+            }
+        },
+        {
+            "name": "Attribute > Punctuation",
+            "scope": "meta.attribute punctuation",
+            "settings": {
+                "foreground": "#8c8c8c"
+            }
+        },
+        {
             "name": "Blockquote",
             "scope": "markup.quote",
             "settings": {
@@ -228,7 +242,10 @@
         },
         {
             "name": "Function",
-            "scope": "entity.name.function",
+            "scope": [
+                "entity.name.function",
+                "meta.function"
+            ],
             "settings": {
                 "foreground": "#ffde5c"
             }
@@ -394,7 +411,8 @@
                 "entity.name.module",
                 "entity.name.namespace",
                 "entity.name.type.namespace",
-                "meta.table support.type.property-name"
+                "meta.table support.type.property-name",
+                "meta.use"
             ],
             "settings": {
                 "foreground": "#02c7be"
@@ -601,6 +619,20 @@
             }
         },
         {
+            "name": "[CSS] At-Rule > Punctuation",
+            "scope": "source.css meta.at-rule punctuation.definition.keyword",
+            "settings": {
+                "foreground": "#8c8c8c"
+            }
+        },
+        {
+            "name": "[CSS] Function > Variable",
+            "scope": "source.css meta.function.variable",
+            "settings": {
+                "foreground": "#c076e5"
+            }
+        },
+        {
             "name": "[CSS] Property Name",
             "scope": [
                 "source.css meta.at-rule.media support.type.property-name",
@@ -653,6 +685,14 @@
             "scope": "entity.name.function.macro",
             "settings": {
                 "foreground": "#3392ff"
+            }
+        },
+        {
+            "name": "[Rust] Mut",
+            "scope": "source.rust storage.modifier.mut",
+            "settings": {
+                "foreground": "#a031d8",
+                "fontStyle": "italic"
             }
         }
     ]

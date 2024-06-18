@@ -1,20 +1,22 @@
 /* Direct elements */
-h1, h2, h3 {
-    background: #ffffff;
+h1,
+h2,
+h3 {
+	background: #ffffff;
 }
 
 /* Classes */
-.foo, .bar {
-    --color: hsl(1, 2, 3);
-    background: var(--color);
-    background-color-l: kek;
+.foo,
+.bar {
+	--color: hsl(1, 2, 3);
+	background: var(--color);
+
 }
 
 /* IDs */
-#kek, #lel {
-    transition: ease 0.12s;
+#kek,
+#lel {
+	transition: ease 0.12s;
 }
 
-@media (max-width: 2px) {
-    
-}
+@media (max-width: 2px) {}
