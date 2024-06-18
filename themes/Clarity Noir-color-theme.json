@@ -60,6 +60,14 @@
 			}
 		},
 		{
+			"name": "Boolean Value",
+			"scope": "constant.language.boolean",
+			"settings": {
+				"foreground": "#3392ff",
+				"fontStyle": "italic"
+			}
+		},
+		{
 			"name": "Character > Escaped",
 			"scope": "constant.character.escape",
 			"settings": {
@@ -103,35 +111,56 @@
 		},
 		{
 			"name": "Functions",
-			"scope": "meta.function",
+			"scope": [
+				"entity.name.function",
+				"meta.function"
+			],
 			"settings": {
 				"foreground": "#ffde5c"
 			}
 		},
 		{
-			"name": "Keywords",
+			"name": "Keyword",
 			"scope": "keyword",
 			"settings": {
 				"foreground": "#c076e5"
 			}
 		},
 		{
-			"name": "Numbers",
+			"name": "Modifier",
+			"scope": "storage.modifier",
+			"settings": {
+				"foreground": "#c076e5"
+			}
+		},
+		{
+			"name": "Null",
+			"scope": "constant.language.null",
+			"settings": {
+				"foreground": "#c076e5",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Number",
 			"scope": "constant.numeric",
 			"settings": {
 				"foreground": "#67e077"
 			}
 		},
 		{
-			"name": "Operators",
+			"name": "Operator",
 			"scope": "keyword.operator",
 			"settings": {
 				"foreground": "#8c8c8c"
 			}
 		},
 		{
-			"name": "Section Punctuation",
-			"scope": "punctuation.section",
+			"name": "Scope Punctuation",
+			"scope": [
+				"punctuation.curlybrace",
+				"punctuation.section"
+			],
 			"settings": {
 				"foreground": "#8c8c8c"
 			}
@@ -151,6 +180,7 @@
 			}
 		},
 		{
+			"name": "Storage",
 			"scope": "storage.type",
 			"settings": {
 				"foreground": "#c076e5"
@@ -171,10 +201,24 @@
 			}
 		},
 		{
+			"name": "Types",
+			"scope": "entity.name.type",
+			"settings": {
+				"foreground": "#2acd41"
+			}
+		},
+		{
 			"name": "Variables",
 			"scope": "variable",
 			"settings": {
 				"foreground": "#8fbeff"
+			}
+		},
+		{
+			"name": "[C#] Interface",
+			"scope": "source.cs entity.name.type.interface",
+			"settings": {
+				"foreground": "#67e077"
 			}
 		},
 		{
@@ -490,22 +534,6 @@
 			"scope": "source.toml support.type.property-name.table",
 			"settings": {
 				"foreground": "#02c7be"
-			}
-		},
-		{
-			"name": "[YAML] Boolean Values",
-			"scope": "source.yaml constant.language.boolean",
-			"settings": {
-				"foreground": "#3392ff",
-				"fontStyle": "italic"
-			}
-		},
-		{
-			"name": "[YAML] Null",
-			"scope": "source.yaml constant.language.null",
-			"settings": {
-				"foreground": "#c076e5",
-				"fontStyle": "italic"
 			}
 		},
 		{
