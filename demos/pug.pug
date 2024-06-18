@@ -1,0 +1,21 @@
+mixin list
+  ul
+    li one
+    li two
+    li three
+
+html(lang="en")
+
+  head
+    meta(charset="UTF-8")
+    link(href="./css.css", rel="stylesheet", type="text/css")
+    title This is some Pug!
+
+  body
+    #root
+      h1 Header 1
+      h2 Header 2
+      .foo(kek="lel")
+        | This is a paragraph 
+        | with multiple lines
+      +list

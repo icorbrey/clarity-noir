@@ -559,6 +559,53 @@
 			}
 		},
 		{
+			"name": "[Pug] Attribute",
+			"scope": "text.pug entity.other.attribute-name.tag",
+			"settings": {
+				"foreground": "#3392ff",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "[Pug] Attribute Punctuation",
+			"scope": [
+				"text.pug args.mixin",
+				"text.pug attribute_value",
+				"text.pug constant.name.attribute.tag"
+			],
+			"settings": {
+				"foreground": "#8c8c8c"
+			}
+		},
+		{
+			"name": "[Pug] Class",
+			"scope": "text.pug entity.other.attribute-name.class",
+			"settings": {
+				"foreground": "#ffcc00"
+			}
+		},
+		{
+			"name": "[Pug] ID",
+			"scope": "text.pug entity.other.attribute-name.id",
+			"settings": {
+				"foreground": "#ff2e55"
+			}
+		},
+		{
+			"name": "[Pug] Mixin",
+			"scope": "text.pug entity.name.function",
+			"settings": {
+				"foreground": "#45d958"
+			}
+		},
+		{
+			"name": "[Pug] Tag",
+			"scope": "text.pug entity.name.tag",
+			"settings": {
+				"foreground": "#02c7be"
+			}
+		},
+		{
 			"name": "[Rust] Lifetime",
 			"scope": [
 				"source.rust entity.name.type.lifetime",
