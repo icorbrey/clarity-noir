@@ -10,11 +10,23 @@ struct Kek<'a> {
     pub baz: char,
 }
 
-fn main() {
+impl<'a> Kek<'a> {
+    pub fn new() -> Self {
+        todo!()
+    }
+}
+
+fn main(a, b) {
     let x = "foo".to_owned();
-    println!("The value is {0}, fool!", x);
+    println!("The value is {0}, fool!\n", x);
     let y = vec![1_u8, 2_u8, 3_u8];
-    if true {}
+
+    if true || false {}
+
+    let mut foo = Foo::new();
+
+    foo.bar;
+
     let x = 0x0000_0000;
     let y = 0b0000_0000;
 }

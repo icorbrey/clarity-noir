@@ -5,6 +5,8 @@ namespace Kek {
         public static void Main() {
             System.Console.WriteLine("kek", "lel");
 
+            var kek = "lel";
+
             if (true) {
                 return null;
             }
