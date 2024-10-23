@@ -1,0 +1,21 @@
+{
+  "name": "clarity-noir",
+  "displayName": "Clarity Noir",
+  "description": "A clear, crisp dark theme for pleasant viewing in sunlight.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.94.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Clarity Noir",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Clarity Noir-color-theme.json"
+      }
+    ]
+  }
+}
