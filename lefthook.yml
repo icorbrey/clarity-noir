@@ -1,0 +1,4 @@
+commit-msg:
+  scripts:
+    "semantic-commits.sh":
+      runner: bash
