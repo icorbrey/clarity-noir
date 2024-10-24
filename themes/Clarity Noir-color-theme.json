@@ -10,6 +10,22 @@
 		"activityBar.inactiveForeground": "#8c8c8c",
 		"activityBarBadge.background": "#027aff",
 		"activityBarBadge.foreground": "#ffffff",
+		// Buttons
+		"button.background": "#027aff",
+		"button.foreground": "#ffffff",
+		"button.hoverBackground": "#0069e0",
+		"button.secondaryBackground": "#373737",
+		"button.secondaryForeground": "#dcdcdc",
+		"button.secondaryHoverBackground": "#515151",
+		// Checkboxes
+		"checkbox.background": "#373737",
+		"checkbox.foreground": "#dcdcdc",
+		"checkbox.selectBackground": "#515151",
+		"checkbox.selectBorder": "#027aff",
+		// Dropdowns
+		"dropdown.background": "#373737",
+		"dropdown.foreground": "#dcdcdc",
+		"dropdown.listBackground": "#373737",
 		// Editor
 		"editor.background": "#1e1e1e",
 		"editorCursor.foreground": "#dcdcdc",
@@ -41,6 +57,8 @@
 		"panelSection.border": "#000000",
 		"panelSectionHeader.background": "#373737",
 		"panelSectionHeader.foreground": "#dcdcdc",
+		// Settings
+		"settings.modifiedItemIndicator": "#027aff",
 		// Sidebar
 		"sideBar.border": "#000000",
 		"sideBar.background": "#282828",
