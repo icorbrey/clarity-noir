@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/icorbrey/clarity-noir/compare/v1.3.0...v1.4.0) (2024-10-24)
+
+
+### Features
+
+* Add language support for JSON ([#33](https://github.com/icorbrey/clarity-noir/issues/33)) ([ff6aa91](https://github.com/icorbrey/clarity-noir/commit/ff6aa91f7108115189af4d8c8eab6496daeb3c83))
+
 # [1.3.0](https://github.com/icorbrey/clarity-noir/compare/v1.2.0...v1.3.0) (2024-10-24)
 
 
