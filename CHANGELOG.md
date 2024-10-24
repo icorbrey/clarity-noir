@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/icorbrey/clarity-noir/compare/v1.2.0...v1.3.0) (2024-10-24)
+
+
+### Features
+
+* Add language support for YAML ([#30](https://github.com/icorbrey/clarity-noir/issues/30)) ([c2a1c00](https://github.com/icorbrey/clarity-noir/commit/c2a1c00413da31706d0d34836cf0b23c234957bd))
+
 # [1.2.0](https://github.com/icorbrey/clarity-noir/compare/v1.1.2...v1.2.0) (2024-10-24)
 
 
