@@ -9,5 +9,8 @@
 		"activityBar.inactiveForeground": "#8c8c8c",
 		"activityBarBadge.background": "#027aff",
 		"activityBarBadge.foreground": "#ffffff",
+		"breadcrumb.background": "#1e1e1e",
+		"breadcrumb.foreground": "#8c8c8c",
+		"breadcrumb.focusForeground": "#dcdcdc"
 	}
 }
