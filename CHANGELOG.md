@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/icorbrey/clarity-noir/compare/v1.1.1...v1.1.2) (2024-10-24)
+
+
+### Bug Fixes
+
+* Broken link for palette ([#22](https://github.com/icorbrey/clarity-noir/issues/22)) ([ca67263](https://github.com/icorbrey/clarity-noir/commit/ca672638736222a281c2da3c5fb12267e2f79aec))
+
 ## [1.1.1](https://github.com/icorbrey/clarity-noir/compare/v1.1.0...v1.1.1) (2024-10-24)
 
 
