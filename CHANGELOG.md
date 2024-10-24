@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/icorbrey/clarity-noir/compare/v1.0.0...v1.1.0) (2024-10-24)
+
+
+### Features
+
+* Create base palette ([#19](https://github.com/icorbrey/clarity-noir/issues/19)) ([a0e42ed](https://github.com/icorbrey/clarity-noir/commit/a0e42edfde1fe41a559ec19ce887191ca794fdef))
+
 # [1.1.0-master.1](https://github.com/icorbrey/clarity-noir/compare/v1.0.0...v1.1.0-master.1) (2024-10-24)
 
 
