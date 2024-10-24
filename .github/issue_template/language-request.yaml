@@ -1,0 +1,24 @@
+name: Language Support Request
+description: Request support for a new language.
+title: "[Request]: "
+labels: ["language-support"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for using Clarity Noir! Please make sure there isn't an existing
+        issue requesting support for this language.
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      description: What language do you want support added for?
+      placeholder: ex. Rust
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything important we should know before starting on this?
+    validations:
+      required: false
