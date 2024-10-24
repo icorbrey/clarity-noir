@@ -29,10 +29,6 @@ jobs:
         run: npm ci
 
       - name: Create release if needed
-        run: |
-          git branch delete-me-if-you-see-me
-          git push -u
-          npx semantic-release
-          git push -d remote/origin delete-me-if-you-see-me
+        run: npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
