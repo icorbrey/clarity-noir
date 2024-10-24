@@ -13,6 +13,8 @@ module.exports = {
             assets: ["package.json", "CHANGELOG.md"],
             message: "chore(release): ${nextRelease.version}\n\n${nextRelease.notes}",
         }],
-        "@semantic-release/github",
+        ["@semantic-release/github", {
+            draftRelease: true,
+        }],
     ],
 };
