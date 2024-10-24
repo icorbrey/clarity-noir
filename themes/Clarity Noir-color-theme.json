@@ -9,8 +9,12 @@
 		"activityBar.inactiveForeground": "#8c8c8c",
 		"activityBarBadge.background": "#027aff",
 		"activityBarBadge.foreground": "#ffffff",
-		"breadcrumb.background": "#1e1e1e",
-		"breadcrumb.foreground": "#8c8c8c",
-		"breadcrumb.focusForeground": "#dcdcdc"
+		"panel.background": "#282828",
+		"panel.border": "#000000",
+		"panel.dropBorder": "#027aff",
+		"panelSection.dropBackground": "#62a9fc80",
+		"panelSection.border": "#000000",
+		"panelSectionHeader.background": "#373737",
+		"panelSectionHeader.foreground": "#dcdcdc",
 	}
 }
