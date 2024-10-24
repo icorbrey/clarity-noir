@@ -4,9 +4,10 @@
 		"activityBar.background": "#373737",
 		"activityBar.border": "#000000",
 		"activityBar.activeBorder": "#dcdcdc",
-		"activityBar.activeFocusBorder": "#ff0000",
 		"activityBar.dropBorder": "#027aff",
 		"activityBar.foreground": "#dcdcdc",
-		"activityBar.inactiveForeground": "#8c8c8c"
+		"activityBar.inactiveForeground": "#8c8c8c",
+		"activityBarBadge.background": "#027aff",
+		"activityBarBadge.foreground": "#ffffff",
 	}
 }
