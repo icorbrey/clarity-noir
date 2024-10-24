@@ -19,9 +19,6 @@ jobs:
         with:
           node-version: 20
 
-      - name: Configure semantic release
-        run: sed -i 's|'<current-branch>'|'${{ github.ref_name }}'|' release.config.js
-
       - name: Configure cache
         uses: actions/cache@v3
         with:
@@ -32,6 +29,9 @@ jobs:
         run: npm ci
 
       - name: Create release if needed
-        run: npx semantic-release
+        run: |
+          git branch delete-me-if-you-see-me
+          npx semantic-release
+          git branch -d delete-me-if-you-see-me
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
