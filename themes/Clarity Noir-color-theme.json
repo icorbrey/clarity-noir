@@ -48,6 +48,16 @@
 		"sideBar.dropBackground": "#62a9fc80",
 		"sideBarSectionHeader.background": "#ffffff1c",
 		"sideBarSectionHeader.foreground": "#dcdcdc",
+		// Status bar
+		"statusBar.background": "#1e1e1e",
+		"statusBar.debuggingBackground": "#b051de",
+		"statusBarItem.hoverBackground": "#ffffff1c",
+		"statusBarItem.activeBackground": "#515151",
+		"statusBarItem.errorBackground": "#ff3b11",
+		"statusBarItem.warningBackground": "#ffcc00",
+		"statusBarItem.warningForeground": "#1e1e1e",
+		"statusBarItem.warningHoverBackground": "#e0b400",
+		"statusBarItem.warningHoverForeground": "#282828",
 		// Tabs
 		"editorGroupHeader.tabsBackground": "#1e1e1e",
 		"tab.border": "#000000",
