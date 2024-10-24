@@ -85,5 +85,74 @@
 		"tab.hoverForeground": "#8c8c8c",
 		"tab.inactiveBackground": "#1e1e1e",
 		"tab.inactiveForeground": "#686868",
-	}
+	},
+	"tokenColors": [
+		{
+			"name": "Comments",
+			"scope": "comment.line",
+			"settings": {
+				"foreground": "#8c8c8c"
+			}
+		},
+		{
+			"name": "Comments > Punctuation",
+			"scope": "punctuation.definition.comment",
+			"settings": {
+				"foreground": "#686868"
+			}
+		},
+		{
+			"name": "Keywords > Constants",
+			"scope": "constant.language",
+			"settings": {
+				"foreground": "#027aff",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Lists > Punctuation",
+			"scope": [
+				"punctuation.definition.sequence",
+				"punctuation.separator.sequence",
+			],
+			"settings": {
+				"foreground": "#8c8c8c"
+			}
+		},
+		{
+			"name": "List items > Punctuation",
+			"scope": "punctuation.definition.block.sequence.item",
+			"settings": {
+				"foreground": "#8c8c8c"
+			}
+		},
+		{
+			"name": "Keys",
+			"scope": "entity.name.tag",
+			"settings": {
+				"foreground": "#02c7be",
+			}
+		},
+		{
+			"name": "Numbers",
+			"scope": "constant.numeric",
+			"settings": {
+				"foreground": "#45d958"
+			}
+		},
+		{
+			"name": "Operators > Assignment",
+			"scope": "punctuation.separator.key-value.mapping",
+			"settings": {
+				"foreground": "#8c8c8c"
+			}
+		},
+		{
+			"name": "Strings",
+			"scope": "string.unquoted",
+			"settings": {
+				"foreground": "#ff9502"
+			}
+		}
+	]
 }
