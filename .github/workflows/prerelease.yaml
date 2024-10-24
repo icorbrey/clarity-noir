@@ -1,9 +1,9 @@
-name: Deploy extension
+name: Prerelease
 
 on:
   release:
     types:
-      - published
+      - prereleased
 
 jobs:
   deploy:
@@ -26,7 +26,7 @@ jobs:
       - name: Install packages
         run: npm ci
 
-      - name: Deploy extension
-        run: npx vsce publish -p $VSCE_TOKEN
+      - name: Publish prerelease version of extension
+        run: npx vsce publish --pre-release -p $VSCE_TOKEN
         env:
           VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}

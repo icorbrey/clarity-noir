@@ -1,5 +1,8 @@
 module.exports = {
-    branches: ["master"],
+    branches: [{
+        name: "master",
+        prerelease: true,
+    }],
     plugins: [
         "@semantic-release/commit-analyzer",
         "@semantic-release/release-notes-generator",
@@ -13,8 +16,6 @@ module.exports = {
             assets: ["package.json", "CHANGELOG.md"],
             message: "chore(release): ${nextRelease.version}\n\n${nextRelease.notes}",
         }],
-        ["@semantic-release/github", {
-            draftRelease: true,
-        }],
+        "@semantic-release/github",
     ],
 };
