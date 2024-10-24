@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/icorbrey/clarity-noir/compare/v1.1.2...v1.2.0) (2024-10-24)
+
+
+### Features
+
+* Theme UI ([#23](https://github.com/icorbrey/clarity-noir/issues/23)) ([226ffad](https://github.com/icorbrey/clarity-noir/commit/226ffad04bc9cf0e01d2f9f0a94a32aed7cbba2c))
+
 ## [1.1.2](https://github.com/icorbrey/clarity-noir/compare/v1.1.1...v1.1.2) (2024-10-24)
 
 
