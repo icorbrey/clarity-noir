@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/icorbrey/clarity-noir/compare/v1.1.0...v1.1.1) (2024-10-24)
+
+
+### Bug Fixes
+
+* README image not valid ([#21](https://github.com/icorbrey/clarity-noir/issues/21)) ([b386cf8](https://github.com/icorbrey/clarity-noir/commit/b386cf8b4d6d2ef34a7091e2c8ff3c2a2d95331d))
+
 # [1.1.0](https://github.com/icorbrey/clarity-noir/compare/v1.0.0...v1.1.0) (2024-10-24)
 
 
