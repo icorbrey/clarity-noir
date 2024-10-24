@@ -1,0 +1,29 @@
+background-1:   #1e1e1e
+background-2:   #282828
+background-3:   #ffffff1c
+
+foreground-1:   #dcdcdc
+foreground-2:   #8c8c8c
+foreground-3:   #686868
+
+ui-1:   #373737
+ui-2:   #515151
+ui-3:   #595959
+
+red-500:    #ff3b11
+
+orange-500: #ff9502
+
+yellow-500: #ffcc00
+
+green-300:  #45d958
+green-500:  #2acd41
+
+cyan-300:   #02f2e6
+cyan-500:   #02c7be
+
+blue-500:   #027aff
+
+purple-500: #b051de
+
+pink-500:   #ff2e55
