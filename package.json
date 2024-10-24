@@ -1,11 +1,17 @@
 {
   "name": "clarity-noir",
-  "displayName": "Clarity Noir",
-  "description": "A clear, crisp dark theme for pleasant viewing in sunlight.",
   "publisher": "icorbrey",
   "version": "0.0.1",
-  "private": "true",
+  "displayName": "Clarity Noir",
+  "description": "A clear, crisp dark theme for pleasant viewing in sunlight.",
+  "author": "Isaac Corbrey <icorbrey@gmail.com>",
+  "homepage": "https://github.com/icorbrey/clarity-noir",
+  "repository": {
+    "url": "https://github.com/icorbrey/clarity-noir.git",
+    "type": "git"
+  },
   "license": "GPL-3.0-only",
+  "private": "true",
   "engines": {
     "vscode": "^1.94.0"
   },
