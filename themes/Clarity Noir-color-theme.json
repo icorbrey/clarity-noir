@@ -1,6 +1,7 @@
 {
 	"name": "Clarity Noir",
 	"colors": {
+		// Activity bar
 		"activityBar.background": "#373737",
 		"activityBar.border": "#000000",
 		"activityBar.activeBorder": "#dcdcdc",
@@ -9,6 +10,30 @@
 		"activityBar.inactiveForeground": "#8c8c8c",
 		"activityBarBadge.background": "#027aff",
 		"activityBarBadge.foreground": "#ffffff",
+		// Editor
+		"editor.background": "#1e1e1e",
+		"editorCursor.foreground": "#dcdcdc",
+		"editor.selectionBackground": "#62a9fc80",
+		"editor.hoverHighlightBackground": "#62a9fc80",
+		"editor.foreground": "#dcdcdc",
+		"editorIndentGuide.background1": "#373737",
+		"editorIndentGuide.activeBackground1": "#515151",
+		"editorLineNumber.foreground": "#686868",
+		"editorLineNumber.activeForeground": "#dcdcdc",
+		"editorStickyScroll.shadow": "#000000",
+		// Editor groups
+		"editorGroup.border": "#000000",
+		"editorGroup.emptyBackground": "#1e1e1e",
+		"editorGroup.dropBackground": "#62a9fc80",
+		"editorGroup.dropIntoPromptBackground": "#1e1e1e",
+		"editorGroup.dropIntoPromptForeground": "#dcdcdc",
+		// Editor hints
+		"editorBracketMatch.border": "#ffffff40",
+		"editorCodeLens.foreground": "#8c8c8c",
+		"editorError.foreground": "#ff3b11",
+		"editorLightBulb.foreground": "#ffcc00",
+		"editorWarning.foreground": "#ffcc00",
+		// Panels
 		"panel.background": "#282828",
 		"panel.border": "#000000",
 		"panel.dropBorder": "#027aff",
@@ -16,6 +41,7 @@
 		"panelSection.border": "#000000",
 		"panelSectionHeader.background": "#373737",
 		"panelSectionHeader.foreground": "#dcdcdc",
+		// Sidebar
 		"sideBar.border": "#000000",
 		"sideBar.background": "#282828",
 		"sideBar.foreground": "#dcdcdc",
