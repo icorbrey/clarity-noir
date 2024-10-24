@@ -16,5 +16,11 @@
 		"panelSection.border": "#000000",
 		"panelSectionHeader.background": "#373737",
 		"panelSectionHeader.foreground": "#dcdcdc",
+		"sideBar.border": "#000000",
+		"sideBar.background": "#282828",
+		"sideBar.foreground": "#dcdcdc",
+		"sideBar.dropBackground": "#62a9fc80",
+		"sideBarSectionHeader.background": "#ffffff1c",
+		"sideBarSectionHeader.foreground": "#dcdcdc",
 	}
 }
