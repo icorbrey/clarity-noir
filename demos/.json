@@ -1,0 +1,12 @@
+{
+    "string": "value",
+    "int": 123456,
+    "boolean": true,
+    "other-boolean": false,
+    "null-value": null,
+    "array": [
+        "one",
+        "two",
+        3
+    ]
+}

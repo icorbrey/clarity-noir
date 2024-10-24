@@ -13,6 +13,7 @@ ui-3:   #595959
 red-500:    #ff3b11
 
 orange-500: #ff9502
+orange-700: #e08300
 
 yellow-500: #ffcc00
 
