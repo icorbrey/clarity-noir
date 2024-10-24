@@ -48,5 +48,14 @@
 		"sideBar.dropBackground": "#62a9fc80",
 		"sideBarSectionHeader.background": "#ffffff1c",
 		"sideBarSectionHeader.foreground": "#dcdcdc",
+		// Tabs
+		"editorGroupHeader.tabsBackground": "#1e1e1e",
+		"tab.border": "#000000",
+		"tab.activeBackground": "#1e1e1e",
+		"tab.activeBorderTop": "#dcdcdc",
+		"tab.activeForeground": "#dcdcdc",
+		"tab.hoverForeground": "#8c8c8c",
+		"tab.inactiveBackground": "#1e1e1e",
+		"tab.inactiveForeground": "#686868",
 	}
 }
