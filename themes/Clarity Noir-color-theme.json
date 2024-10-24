@@ -102,6 +102,18 @@
 			}
 		},
 		{
+			"name": "Dictionaries > Punctuation",
+			"scope": [
+				"punctuation.definition.dictionary",
+				"punctuation.separator.dictionary.key-value",
+				"punctuation.separator.dictionary.pair",
+				"punctuation.separator.key-value.mapping"
+			],
+			"settings": {
+				"foreground": "#8c8c8c"
+			}
+		},
+		{
 			"name": "Keywords > Constants",
 			"scope": "constant.language",
 			"settings": {
@@ -112,7 +124,9 @@
 		{
 			"name": "Lists > Punctuation",
 			"scope": [
+				"punctuation.definition.array",
 				"punctuation.definition.sequence",
+				"punctuation.separator.array",
 				"punctuation.separator.sequence",
 			],
 			"settings": {
@@ -128,7 +142,10 @@
 		},
 		{
 			"name": "Keys",
-			"scope": "entity.name.tag",
+			"scope": [
+				"support.type.property-name",
+				"entity.name.tag"
+			],
 			"settings": {
 				"foreground": "#02c7be",
 			}
@@ -141,17 +158,10 @@
 			}
 		},
 		{
-			"name": "Operators > Assignment",
-			"scope": "punctuation.separator.key-value.mapping",
-			"settings": {
-				"foreground": "#8c8c8c"
-			}
-		},
-		{
 			"name": "Strings",
-			"scope": "string.unquoted",
+			"scope": "string",
 			"settings": {
-				"foreground": "#ff9502"
+				"foreground": "#e08300"
 			}
 		}
 	]
