@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/icorbrey/clarity-noir/compare/v1.4.0...v1.5.0) (2024-10-25)
+
+
+### Features
+
+* Add language support for Markdown ([#40](https://github.com/icorbrey/clarity-noir/issues/40)) ([788c289](https://github.com/icorbrey/clarity-noir/commit/788c289940f0f3294a2a0cc29527fd838198db6f))
+
 # [1.4.0](https://github.com/icorbrey/clarity-noir/compare/v1.3.0...v1.4.0) (2024-10-24)
 
 
