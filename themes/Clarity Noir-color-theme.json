@@ -125,14 +125,29 @@
 			}
 		},
 		{
-			"name": "Code",
+			"name": "Code > Fenced",
+			"scope": "markup.fenced_code.block punctuation.definition",
+			"settings": {
+				"foreground": "#686868"
+			}
+		},
+		{
+			"name": "Code > Fenced > Language",
+			"scope": "markup.fenced_code.block fenced_code.block.language",
+			"settings": {
+				"foreground": "#ff5c7a",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Code > Inline",
 			"scope": "markup.inline.raw",
 			"settings": {
 				"foreground": "#e08300"
 			}
 		},
 		{
-			"name": "Code > Punctuation",
+			"name": "Code > Inline > Punctuation",
 			"scope": "punctuation.definition.raw",
 			"settings": {
 				"foreground": "#686868"
