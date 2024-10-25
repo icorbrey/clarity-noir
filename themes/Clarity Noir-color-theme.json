@@ -88,8 +88,62 @@
 	},
 	"tokenColors": [
 		{
+			"name": "Blockquote",
+			"scope": "markup.quote",
+			"settings": {
+				"foreground": "#8c8c8c"
+			}
+		},
+		{
+			"name": "Blockquote > Punctuation",
+			"scope": "markup.quote punctuation.definition",
+			"settings": {
+				"foreground": "#686868"
+			}
+		},
+		{
+			"name": "Bold",
+			"scope": "markup.bold",
+			"settings": {
+				"foreground": "#02c7be",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Bold > Punctuation",
+			"scope": "punctuation.definition.bold",
+			"settings": {
+				"foreground": "#686868"
+			}
+		},
+		{
+			"name": "Bolded Italic",
+			"scope": "markup.bold markup.italic",
+			"settings": {
+				"foreground": "#02c7be",
+				"fontStyle": "italic bold"
+			}
+		},
+		{
+			"name": "Code",
+			"scope": "markup.inline.raw",
+			"settings": {
+				"foreground": "#e08300"
+			}
+		},
+		{
+			"name": "Code > Punctuation",
+			"scope": "punctuation.definition.raw",
+			"settings": {
+				"foreground": "#686868"
+			}
+		},
+		{
 			"name": "Comments",
-			"scope": "comment.line",
+			"scope": [
+				"comment.block",
+				"comment.line"
+			],
 			"settings": {
 				"foreground": "#8c8c8c"
 			}
@@ -107,10 +161,74 @@
 				"punctuation.definition.dictionary",
 				"punctuation.separator.dictionary.key-value",
 				"punctuation.separator.dictionary.pair",
-				"punctuation.separator.key-value.mapping"
+				"punctuation.separator.key-value"
 			],
 			"settings": {
 				"foreground": "#8c8c8c"
+			}
+		},
+		{
+			"name": "Heading > Level 1",
+			"scope": "heading.1",
+			"settings": {
+				"foreground": "#ff3b11"
+			}
+		},
+		{
+			"name": "Heading > Level 2",
+			"scope": "heading.2",
+			"settings": {
+				"foreground": "#ff9502"
+			}
+		},
+		{
+			"name": "Heading > Level 3",
+			"scope": "heading.3",
+			"settings": {
+				"foreground": "#ffcc00"
+			}
+		},
+		{
+			"name": "Heading > Level 4",
+			"scope": "heading.4",
+			"settings": {
+				"foreground": "#2acd41"
+			}
+		},
+		{
+			"name": "Heading > Level 5",
+			"scope": "heading.5",
+			"settings": {
+				"foreground": "#027aff"
+			}
+		},
+		{
+			"name": "Heading > Level 6",
+			"scope": "heading.6",
+			"settings": {
+				"foreground": "#b051de"
+			}
+		},
+		{
+			"name": "Heading > Punctuation",
+			"scope": "punctuation.definition.heading",
+			"settings": {
+				"foreground": "#686868"
+			}
+		},
+		{
+			"name": "Italic",
+			"scope": "markup.italic",
+			"settings": {
+				"foreground": "#b0e6e3",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Italic > Punctuation",
+			"scope": "punctuation.definition.italic",
+			"settings": {
+				"foreground": "#686868"
 			}
 		},
 		{
@@ -119,6 +237,55 @@
 			"settings": {
 				"foreground": "#027aff",
 				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Link",
+			"scope": [
+				"meta.link markup.underline.link",
+				"meta.image markup.underline.link"
+			],
+			"settings": {
+				"foreground": "#3392ff",
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"name": "Link > Alt Text",
+			"scope": "meta.image string",
+			"settings": {
+				"foreground": "#ff2e55"
+			}
+		},
+		{
+			"name": "Link > Punctuation",
+			"scope": [
+				"meta.link punctuation.definition.constant",
+				"meta.image punctuation.definition.constant",
+				"meta.link punctuation.definition.link",
+				"meta.image punctuation.definition.link",
+				"meta.link punctuation.definition.metadata",
+				"meta.image punctuation.definition.metadata"
+			],
+			"settings": {
+				"foreground": "#686868"
+			}
+		},
+		{
+			"name": "Link > Reference",
+			"scope": [
+				"meta.link constant.other.reference",
+				"meta.image constant.other.reference"
+			],
+			"settings": {
+				"foreground": "#e0b400"
+			}
+		},
+		{
+			"name": "Link > Text",
+			"scope": "meta.link string.other.link.title",
+			"settings": {
+				"foreground": "#02c7be"
 			}
 		},
 		{
@@ -135,7 +302,10 @@
 		},
 		{
 			"name": "List items > Punctuation",
-			"scope": "punctuation.definition.block.sequence.item",
+			"scope": [
+				"punctuation.definition.block.sequence.item",
+				"punctuation.definition.list"
+			],
 			"settings": {
 				"foreground": "#8c8c8c"
 			}
@@ -158,10 +328,35 @@
 			}
 		},
 		{
+			"name": "Strikethrough",
+			"scope": "markup.strikethrough",
+			"settings": {
+				"foreground": "#8c8c8c",
+				"fontStyle": "strikethrough"
+			}
+		},
+		{
+			"name": "Strikethrough > Punctuation",
+			"scope": "punctuation.definition.strikethrough",
+			"settings": {
+				"foreground": "#686868"
+			}
+		},
+		{
 			"name": "Strings",
 			"scope": "string",
 			"settings": {
 				"foreground": "#e08300"
+			}
+		},
+		{
+			"name": "Table > Punctuation",
+			"scope": [
+				"punctuation.definition.table",
+				"punctuation.separator.table"
+			],
+			"settings": {
+				"foreground": "#686868"
 			}
 		}
 	]
