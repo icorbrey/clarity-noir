@@ -1,0 +1,28 @@
+name: Language Support
+description: Request support for a new language.
+labels: [c-language-support]
+body:
+  - type: input
+    attributes:
+      label: Language
+      description: What language do you want to add support for?
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Notes
+      description: |
+        Anything we should know about this language before we start working on
+        theming it?
+    validations:
+      required: false
+
+  - type: checkboxes
+    attributes:
+      label: Want to help?
+      description: |
+        Contributions are greatly appreciated!
+      options:
+        - label: I would like to work on this and submit a PR with my changes.
+          required: false
