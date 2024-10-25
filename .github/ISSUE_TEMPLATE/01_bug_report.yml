@@ -1,0 +1,33 @@
+name: Bug Report
+description: Something isn't working right.
+labels: [c-bug]
+body:
+  - type: input
+    attributes:
+      label: Clarity Noir version
+      description: What version are you using?
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Expected behavior
+      description: Describe what you were expecting to happen.
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Actual behavior
+      description: Describe what actually happened.
+    validations:
+      required: true
+
+  - type: checkboxes
+    attributes:
+      label: Want to help?
+      description: |
+        Contributions are greatly appreciated!
+      options:
+        - label: I would like to work on this and submit a PR with my changes.
+          required: false
