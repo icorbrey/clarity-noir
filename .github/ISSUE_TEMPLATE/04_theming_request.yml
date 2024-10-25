@@ -1,5 +1,6 @@
 name: Theming Request
 description: Wouldn't it be nice if Clarity Noir could...
+labels: [c-theming]
 body:
   - type: textarea
     attributes:
