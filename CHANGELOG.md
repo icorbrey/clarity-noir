@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/icorbrey/clarity-noir/compare/v1.6.0...v1.6.1) (2024-10-25)
+
+
+### Bug Fixes
+
+* **markdown:** Code block fences not colorized ([#44](https://github.com/icorbrey/clarity-noir/issues/44)) ([64081a4](https://github.com/icorbrey/clarity-noir/commit/64081a4f89df29aa10abe215aabdc7734b87778b))
+
 # [1.6.0](https://github.com/icorbrey/clarity-noir/compare/v1.5.0...v1.6.0) (2024-10-25)
 
 
