@@ -358,6 +358,34 @@
 			"settings": {
 				"foreground": "#686868"
 			}
+		},
+		{
+			"name": "[TOML] Properties > Assignment",
+			"scope": "punctuation.eq.toml",
+			"settings": {
+				"foreground": "#686868"
+			}
+		},
+		{
+			"name": "[TOML] Tables > Inline > Punctuation",
+			"scope": "punctuation.definition.table.inline.toml",
+			"settings": {
+				"foreground": "#8C8C8C"
+			}
+		},
+		{
+			"name": "[TOML] Tables > Name",
+			"scope": "support.type.property-name.table.toml",
+			"settings": {
+				"foreground": "#c076e5"
+			}
+		},
+		{
+			"name": "[TOML] Tables > Name > Punctuation",
+			"scope": "punctuation.separator.dot.toml",
+			"settings": {
+				"foreground": "#8C8C8C"
+			}
 		}
 	]
 }

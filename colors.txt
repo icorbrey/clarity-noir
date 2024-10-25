@@ -25,6 +25,7 @@ cyan-500:   #02c7be
 
 blue-500:   #027aff
 
+purple-300: #c076e5
 purple-500: #b051de
 
 pink-500:   #ff2e55
