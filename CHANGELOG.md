@@ -1,3 +1,10 @@
+# [1.6.0](https://github.com/icorbrey/clarity-noir/compare/v1.5.0...v1.6.0) (2024-10-25)
+
+
+### Features
+
+* Add language support for TOML ([#43](https://github.com/icorbrey/clarity-noir/issues/43)) ([42a5853](https://github.com/icorbrey/clarity-noir/commit/42a58532a9835125cf9e94dfcd0ab8b9a1042b3e))
+
 # [1.5.0](https://github.com/icorbrey/clarity-noir/compare/v1.4.0...v1.5.0) (2024-10-25)
 
 
