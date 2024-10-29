@@ -1,5 +1,6 @@
 name: Editor Support
 description: Request support for a new editor.
+title: "Editor Support: "
 labels: [c-editor-support]
 body:
   - type: input

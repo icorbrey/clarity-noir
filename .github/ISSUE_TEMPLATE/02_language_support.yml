@@ -1,5 +1,6 @@
 name: Language Support
 description: Request support for a new language.
+title: "Language Support: "
 labels: [c-language-support]
 body:
   - type: input
