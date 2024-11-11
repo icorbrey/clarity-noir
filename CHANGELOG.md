@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/icorbrey/clarity-noir/compare/v1.6.1...v1.7.0) (2024-11-11)
+
+
+### Features
+
+* **vscode:** Use theme palette for terminal ANSI colors ([#65](https://github.com/icorbrey/clarity-noir/issues/65)) ([c5955c4](https://github.com/icorbrey/clarity-noir/commit/c5955c4da59e9143043dc9b84b8852698e5ed240))
+
 ## [1.6.1](https://github.com/icorbrey/clarity-noir/compare/v1.6.0...v1.6.1) (2024-10-25)
 
 
