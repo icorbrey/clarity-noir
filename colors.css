@@ -1,0 +1,44 @@
+.colors {
+
+    --background-1: #1e1e1e;
+    --background-2: #282828;
+    --background-3: #ffffff1c;
+
+    --foreground-1: #dcdcdc;
+    --foreground-2: #bfbfbf;
+    --foreground-3: #8c8c8c;
+    --foreground-4: #686868;
+
+    --ui-1: #373737;
+    --ui-2: #515151;
+    --ui-3: #595959;
+
+    --red-400: #ff3b11;
+    --red-400-bright: #ff5d38;
+
+    --orange-400: #ff9502;
+    --orange-400-bright: #ffb752;
+    --orange-500: #e68600;
+
+    --yellow-400: #ffcc00;
+
+    --green-400: #2acd41;
+    --green-400-bright: #6fe27e;
+
+    --cyan-300: #02f7eb;
+    --cyan-400: #02c7be;
+    --cyan-400-bright: #08fdf0;
+    --cyan-500: #02aca3;
+
+    --blue-300: #1a85ff;
+    --blue-400: #027aff;
+    --blue-400-bright: #5ca8ff;
+    --blue-500: #0065d9;
+    --blue-600: #0056b8;
+
+    --purple-400: #b051de;
+    --purple-400-bright: #c683e7;
+
+    --pink-400: #ff2e55;
+
+}
