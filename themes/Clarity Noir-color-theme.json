@@ -85,6 +85,25 @@
 		"tab.hoverForeground": "#8c8c8c",
 		"tab.inactiveBackground": "#1e1e1e",
 		"tab.inactiveForeground": "#686868",
+		// Terminal
+		"terminal.background": "#1e1e1e",
+		"terminal.foreground": "#dcdcdc",
+		"terminal.ansiBlack": "#1e1e1e",
+		"terminal.ansiBrightBlack": "#000000",
+		"terminal.ansiBlue": "#027aff",
+		"terminal.ansiBrightBlue": "#5ca8ff",
+		"terminal.ansiCyan": "#02c7be",
+		"terminal.ansiBrightCyan": "#08fdf0",
+		"terminal.ansiGreen": "#2acd41",
+		"terminal.ansiBrightGreen": "#6fe27e",
+		"terminal.ansiMagenta": "#b051de",
+		"terminal.ansiBrightMagenta": "#c683e7",
+		"terminal.ansiRed": "#ff3b11",
+		"terminal.ansiBrightRed": "#ff5d38",
+		"terminal.ansiWhite": "#dcdcdc",
+		"terminal.ansiBrightWhite": "#ffffff",
+		"terminal.ansiYellow": "#ff9502",
+		"terminal.ansiBrightYellow": "#ffb752"
 	},
 	"tokenColors": [
 		{
