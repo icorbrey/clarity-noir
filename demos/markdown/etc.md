@@ -12,11 +12,11 @@
 
 This is some plain text.
 
-*This is some italicized text.*
+_This is some italicized text._
 
 **This is some bolded text.**
 
-***This is some bolded, italicized text.***
+**_This is some bolded, italicized text._**
 
 ~~Strikethrough?~~
 
