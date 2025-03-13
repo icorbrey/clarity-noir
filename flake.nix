@@ -41,6 +41,11 @@
           inherit lib palette pkgs;
         };
 
+        shiki = import ./targets/shiki.nix {
+          inherit pkgs terminal textmate;
+          inherit (palette) name;
+        };
+
         vhs = import ./targets/vhs.nix {
           inherit (palette) name;
           inherit pkgs terminal;
