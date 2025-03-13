@@ -35,6 +35,10 @@
         textmate = import ./src/textmate.nix {
           inherit lib roles;
         };
+
+        treesitter = import ./src/treesitter.nix {
+          inherit lib roles;
+        };
       in {
         palette = import ./targets/palette.nix {
           inherit (nix-colorizer) hex oklch;
