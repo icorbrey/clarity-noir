@@ -36,6 +36,11 @@
           inherit (nix-colorizer) hex oklch;
           inherit lib palette pkgs;
         };
+
+        vhs = import ./targets/vhs.nix {
+          inherit (palette) name;
+          inherit pkgs terminal;
+        };
       };
     }) systems);
   };
