@@ -27,6 +27,10 @@
         roles = import ./src/roles.nix {
           inherit palette;
         };
+
+        terminal = import ./src/terminal.nix {
+          inherit palette;
+        };
       in {
         palette = import ./targets/palette.nix {
           inherit (nix-colorizer) hex oklch;
