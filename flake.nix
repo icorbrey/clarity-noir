@@ -23,6 +23,10 @@
         palette = import ./src/palette.nix {
           inherit (nix-colorizer) hex oklch;
         };
+
+        roles = import ./src/roles.nix {
+          inherit palette;
+        };
       in {
         palette = import ./targets/palette.nix {
           inherit (nix-colorizer) hex oklch;
