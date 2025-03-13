@@ -1,0 +1,40 @@
+---
+import { noteStore, type NoteFrontmatter } from "../../features/notes/store";
+import NotePage from "../../features/notes/NotePage.svelte";
+import Root from "../../layouts/Root.astro";
+
+const slug = Astro.params.slug!;
+const note = await noteStore.getSingle({
+    includeDrafts: import.meta.env.DEV,
+    slug,
+});
+
+if (!note) {
+    return Astro.rewrite("/404");
+}
+
+const { Content, remarkPluginFrontmatter } = await note.render();
+
+const frontmatter: NoteFrontmatter = {
+    readingTime: remarkPluginFrontmatter.readingTime,
+    ...note?.data,
+};
+---
+
+<Root
+    description={frontmatter.description}
+    image={frontmatter.imageUrl}
+    title={frontmatter.title}
+    path={`/notes/${slug}`}
+    type="article"
+    properties={{
+        "article:published_time": frontmatter.publishedOn,
+        "article:tag": frontmatter.tags,
+        "article:section": "Notes",
+    }}
+>
+    <NotePage {frontmatter}>
+        <Content />
+		<span>This is a test</span>
+    </NotePage>
+</Root>
