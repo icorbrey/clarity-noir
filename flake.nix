@@ -40,6 +40,10 @@
           inherit lib roles;
         };
       in {
+        helix = import ./targets/helix.nix {
+          inherit palette pkgs treesitter;
+        };
+        
         palette = import ./targets/palette.nix {
           inherit (nix-colorizer) hex oklch;
           inherit lib palette pkgs;
